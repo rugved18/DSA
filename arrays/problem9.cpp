@@ -14,7 +14,7 @@ int missingNumber(vector<int>&a, int N) {
         s2 += a[i];
     }
 
-    int missingNum = sum - s2;
+    int missingNum = sum - s2; 
     return missingNum;
 }
 

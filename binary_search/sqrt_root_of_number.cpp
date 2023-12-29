@@ -1,4 +1,4 @@
-
+//square root of the number
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,4 @@
+// nth_root_of number
 #include <bits/stdc++.h>
 using namespace std;
 int func(int mid, int n, int m) {

@@ -1,3 +1,4 @@
+//reverse the string
 #include<bits/stdtr1c++.h>
 using namespace std;
 int reverse(char name[], int n){

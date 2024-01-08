@@ -1,4 +1,5 @@
 // length of the string
+// length of the string
 #include<bits/stdtr1c++.h>
 using namespace std;
 int length(char name[]){

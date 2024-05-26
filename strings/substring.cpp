@@ -1,5 +1,5 @@
 // longest substring without repeating char
-// using sliding window and two pointer
+// using sliding window and two pointer 
 
 #include<bits/stdc++.h>
 using namespace std;

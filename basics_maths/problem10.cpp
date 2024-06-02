@@ -1,8 +1,6 @@
-// armstrong number
-
+// armstrong number: a number that is equal to the sum of the cubes of its digits
 #include<bits/stdc++.h>
 using namespace std;
-
 
 void armstrong(int n){
     int original =n;

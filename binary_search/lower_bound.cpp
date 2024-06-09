@@ -1,4 +1,5 @@
-// binary_search problem
+// binary_search problem 
+// lower bound
 #include <bits/stdc++.h>
 using namespace std;
 

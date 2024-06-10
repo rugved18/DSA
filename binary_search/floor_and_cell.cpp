@@ -1,5 +1,6 @@
 // binary_search problem
-// floor and cell problem
+// floor and cell problem 
+// both upper bound and lower bound is used
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,14 +10,14 @@ int findFloor(int arr[], int n, int x) {
 
 	while (low <= high) {
 		int mid = (low + high) / 2;
-		// maybe an answer
+		
 		if (arr[mid] <= x) {
 			ans = arr[mid];
-			//look for smaller index on the left
+			
 			low = mid + 1;
 		}
 		else {
-			high = mid - 1; // look on the right
+			high = mid - 1; 
 		}
 	}
 	return ans;
@@ -28,14 +29,14 @@ int findCeil(int arr[], int n, int x) {
 
 	while (low <= high) {
 		int mid = (low + high) / 2;
-		// maybe an answer
+		
 		if (arr[mid] >= x) {
 			ans = arr[mid];
-			//look for smaller index on the left
+			
 			high = mid - 1;
 		}
 		else {
-			low = mid + 1; // look on the right
+			low = mid + 1; 
 		}
 	}
 	return ans;

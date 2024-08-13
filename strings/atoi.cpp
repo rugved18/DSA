@@ -1,23 +1,36 @@
-// determine if string halves are alike
- #include<bits/stdc++.h>
- using namespace std;
- bool halvesAreAlike(string s) {
+#include <bits/stdc++.h>
+using namespace std;
 
-        unordered_set<char> mpp
-            {'a','e','i','o','u','A','E','I','O','U'};
-        int left =0;
-        int right = s.length()-1;
-        int vowel =0;
+bool halvesAreAlike(string s) {
+    unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+    int left = 0;
+    int right = s.length() - 1;
+    int vowel_count = 0;
 
-        while(left<right){
-            if(mpp.count(s[left])){
-                vowel++;
-            }
-            if(mpp.count(s[right])){
-                vowel--;
-            }
-            left++;
-            right--;
+    while (left < right) {
+        if (vowels.count(s[left])) {
+            vowel_count++;
         }
-        return vowel == 0;
- }
+        if (vowels.count(s[right])) {
+            vowel_count--;
+        }
+        left++;
+        right--;
+    }
+
+    return vowel_count == 0;
+}
+
+int main() {
+    string s;
+    cout << "Enter the string: ";
+    cin >> s;
+
+    if (halvesAreAlike(s)) {
+        cout << "The two halves of the string are alike." << endl;
+    } else {
+        cout << "The two halves of the string are not alike." << endl;
+    }
+
+    return 0;
+}

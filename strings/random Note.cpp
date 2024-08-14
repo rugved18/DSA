@@ -28,10 +28,7 @@ int main() {
     
     string ransomNote = "aab";
     string magazine = "baa";
-    
     bool result = solution.canConstruct(ransomNote, magazine);
-    
     cout << (result ? "true" : "false") << endl;
-    
     return 0;
 }

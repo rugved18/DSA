@@ -26,7 +26,7 @@ public:
 int main() {
     Solution solution;
     
-    string ransomNote = "aab";
+    string ransomNote = "aabaa";
     string magazine = "baa";
     bool result = solution.canConstruct(ransomNote, magazine);
     cout << (result ? "true" : "false") << endl;

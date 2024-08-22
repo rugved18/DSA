@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+// determine if two events have conflit
+#include <bits/stdc++.h>
 using namespace std;
 
 class Solution {

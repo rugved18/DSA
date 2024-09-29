@@ -12,9 +12,9 @@ void prime(int n){
            return;
         }
     }
-            cout<<" prime number"<<endl;
-        
+            cout<<" prime number"<<endl;  
 }
+
 int main(){
     int n;
     cout<<"enter the number";

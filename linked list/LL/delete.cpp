@@ -83,8 +83,8 @@ node* deleteELE(node* head, int el){
        return head;
     }
 
-    node* temp =head;
-    node* prs = NULL;
+    node* temp = head;
+    node* prs =  NULL;
 
     while(temp != NULL){
         if(temp->data == el){

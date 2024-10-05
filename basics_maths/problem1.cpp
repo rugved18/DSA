@@ -14,7 +14,6 @@ void prime(int n){
     }
             cout<<" prime number"<<endl;  
 }
-
 int main(){
     int n;
     cout<<"enter the number";

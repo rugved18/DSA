@@ -2,7 +2,7 @@
 using namespace std;
 
 int second_largest(vector<int> arr){
-    int max=arr[0];
+    int max=INT_MIN;
     int second = INT_MIN;
 
     for(int i=1;i<arr.size();i++){

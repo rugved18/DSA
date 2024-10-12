@@ -11,8 +11,7 @@ pair<int, int> question5(vector<int> arr){
             repeat = arr[i];
             break;
         }
-    }
-   
+    } 
   int sum_full  = n*(n+1)/2;
   int sum=0;
   for(int i=0;i<n;i++){
@@ -20,7 +19,6 @@ pair<int, int> question5(vector<int> arr){
   }
   missing = sum_full-(sum-repeat);
 return {repeat,missing};
-
 }
 
 int main(){
@@ -36,6 +34,4 @@ int main(){
     // Output the results
     cout << "Repeating: " << result.first << ", Missing: " << result.second << endl;
         return 0;
-
-
 }

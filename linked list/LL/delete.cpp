@@ -125,3 +125,16 @@ int main() {
      display(head);
     return 0;
 }
+
+
+
+int function(node* head){
+    node* temp = head;
+    int cnt =0;
+    while(temp != NULL){
+        cnt++;
+        temp = temp->next;
+    }
+    cnt++;
+    return cnt;
+}

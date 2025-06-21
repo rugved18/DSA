@@ -8,7 +8,8 @@ int duplicate_removal(vector<int> arr, int n){
     if(arr[i] != arr[j]){
         i++;
         j--;
-    }    
+    } 
+       
 }
 
 int main(){

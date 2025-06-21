@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include<bits/stdc++.h>
 using namespace std;
 int fact(int n)
@@ -14,7 +13,6 @@ int main()
     cout<<"the factorial of "<<n<<" is :"<<fact(n);
 
 }
-=======
 #include<bits/stdc++.h>
 using namespace std;
 int fact(int n)
@@ -30,4 +28,3 @@ int main()
     cout<<"the factorial of "<<n<<" is :"<<fact(n);
 
 }
->>>>>>> addbbdbe335f8d7df86b5d78fbf43d04daf3373e

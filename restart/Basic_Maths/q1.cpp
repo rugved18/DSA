@@ -1,4 +1,6 @@
 //Prime Number
+#include <bits/stdc++.h>
+using namespace std;
 void prime(int n){
     if (n<=1){
         cout<<"not a prime number"<<endl;
